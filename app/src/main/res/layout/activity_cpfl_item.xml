@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        >
+        <ImageView
+            android:id="@+id/cpfl_item_img_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/cpfl_item_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="sdad"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:background="@drawable/cpfl_item_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

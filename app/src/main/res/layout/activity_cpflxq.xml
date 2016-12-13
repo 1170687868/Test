@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#f4f0f0">
+        <ImageView
+            android:id="@+id/cpflxq_fh_iv"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/btn_homeasup_default"/>
+        <TextView
+            android:id="@+id/cpflxq_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜品详情"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cpflxq_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

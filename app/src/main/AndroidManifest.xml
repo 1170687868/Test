@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.recipes">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.Home_Activity">
+        </activity>
+        <activity android:name=".activity.ViewPager_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Welcome_Activity">
+        </activity>
+        <activity android:name=".activity.Cpfl_Activity">
+        </activity>
+        <activity android:name=".activity.Lxcp_Activity">
+        </activity>
+        <activity android:name=".activity.Sc_Activity">
+        </activity>
+        <activity android:name=".activity.Cpxq_Activity">
+        </activity>
+        <activity android:name=".activity.Cpflxq_Activity">
+        </activity>
+        <activity android:name=".activity.Cpxq1_Activity">
+        </activity>
+        <activity android:name=".activity.Ss_Activity">
+        </activity>
+        <activity android:name=".activity.Cpxq_Ss_Activity">
+        </activity>
+        <activity android:name=".activity.Cpxq_Sc_Activity">
+        </activity>
+    </application>
+
+</manifest>
